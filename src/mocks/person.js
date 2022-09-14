@@ -4,6 +4,12 @@ import babyYoda from '../../assets/Itens/Baby-Yoda.jpg';
 import caraDune from '../../assets/Itens/cara-dune.jpeg';
 import IG11 from '../../assets/Itens/IG-11.jpg';
 import lukeSkywalker from '../../assets/Itens/luke-skywalker.jpg';
+import DarthVader from '../../assets/funkos/pop_darth-vader.jpg';
+import Finn from '../../assets/funkos/pop_finn.jpg';
+import PrincesLeia from '../../assets/funkos/pop_princesa-leia.png';
+import Sandtrooper from '../../assets/funkos/pop_sandtrooper.jpeg';
+import Yoda from '../../assets/funkos/pop_yoda.jpg';
+import Obiwan from '../../assets/funkos/pop_obiwan.jpg';
 
 const person = {
     topo: {
@@ -44,6 +50,35 @@ const person = {
             {
                 name: 'Cara Dune',
                 image: caraDune,
+            },
+        ]
+    },
+    products: {
+        title: 'Veja mais',
+        list: [
+            {
+                name: 'Finn',
+                image: Finn,
+            },
+            {
+                name: 'Darth vader',
+                image: DarthVader,
+            },
+            {
+                name: 'Princesa Leya',
+                image: PrincesLeia,
+            },
+            {
+                name: 'SandTrooper',
+                image: Sandtrooper,
+            },
+            {
+                name: 'Obiwan Kenobi',
+                image: Obiwan,
+            },
+            {
+                name: 'Mestre Yoda',
+                image: Yoda,
             },
         ]
     }
